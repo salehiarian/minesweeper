@@ -36,6 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
           e.preventDefault()
           addFlag(square)
         }
+          
+        square.addEventListener('long-press', function(e) {
+           addFlag(square)
+        });
       }
   
       //add numbers
