@@ -6,8 +6,8 @@
   }
   @media (max-width: 600px){
     :root {
-      --edge--primary: 375px;
-      --edge--square: 37.5px;
+      --edge--primary: 360px;
+      --edge--square: 36px;
       --fs: 25px;
     }
     .content {
