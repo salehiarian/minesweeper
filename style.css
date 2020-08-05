@@ -1,0 +1,129 @@
+
+:root {
+    --edge--primary: 450px;
+    --edge--square: 45px;
+    --fs: 30px;
+  }
+  @media (max-width: 600px){
+    :root {
+      --edge--primary: 405px;
+      --edge--square: 40.5px;
+      --fs: 27px;
+    }
+  }
+  
+  #time {
+    margin-top: 3px;
+  }
+  
+  
+  .container {
+    width: var(--edge--primary) + 100px; 
+    align-content: center;
+    margin: 0 auto;
+    /* padding-bottom: 1.5em; */
+  }
+  
+  .grid {
+    height: var(--edge--primary);
+    width: var(--edge--primary);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cfcece;
+    margin: 1em auto;
+    border: 10px solid #cfcece;
+    
+  }
+  
+  div {
+    font-size: var(--fs);
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+  
+  }
+  .valid {
+    height: var(--edge--square);
+    width: var(--edge--square);
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+    box-sizing: border-box;
+  }
+  
+  .checked {
+    height: var(--edge--square);
+    width: var(--edge--square);
+    border: 2px solid;
+    background-color: #c2bfbf;
+    border-color: #b1b1b1;
+    box-sizing: border-box;
+  }
+  
+  .bomb {
+    height: var(--edge--square);
+    width: var(--edge--square);
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+    box-sizing: border-box;
+  }
+  
+  .one {
+    color: #ec3a3a;
+  }
+  
+  .two {
+    color: #3c9ad8;
+  }
+  
+  .three {
+    color: #3eb140;
+  }
+  
+  .four{
+    color: #bb41d3;
+  }
+  
+  
+  #result {
+    margin-top: 5px;
+    bottom: 5px;
+  }
+  
+  .win {
+    color: rgb(35, 190, 35);
+  }
+  
+  .lose {
+    color: #da4423;
+  }
+  
+  #restart {
+    display: none;
+    border-radius: 12px;
+    padding: 1em 2.5em;
+    background: rgb(54, 95, 231);
+    border-color: rgb(24, 64, 197);
+    color: rgb(235, 232, 232);  
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+    margin-bottom: 4em;
+    margin-top: 4px;
+  }
+  
+  #restart:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+  }
+  
+  #flags-left {
+    color: rgb(115, 41, 175);
+  }
+  
+  .logo {
+    top: 0;
+    left: 0;
+    max-width: 100px;
+  }
