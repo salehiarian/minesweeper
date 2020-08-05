@@ -10,6 +10,9 @@
       --edge--square: 36px;
       --fs: 25px;
     }
+    .content {
+        margin: 5px;
+    }
   }
   
   #time {
