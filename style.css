@@ -6,9 +6,12 @@
   }
   @media (max-width: 600px){
     :root {
-      --edge--primary: 405px;
-      --edge--square: 40.5px;
-      --fs: 27px;
+      --edge--primary: 375px;
+      --edge--square: 37.5px;
+      --fs: 25px;
+    }
+    .content {
+      padding: 2em;
     }
   }
   
