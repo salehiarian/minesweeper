@@ -1,2 +1,2 @@
 # minesweeper
-[I'm an inline-style link](https://salehiarian.github.io/minesweeper/)
+[Link](https://salehiarian.github.io/minesweeper/)
